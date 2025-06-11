@@ -1,16 +1,16 @@
-#1
+#ejercicio 1
 def sumar(a, b):
     print(a + b)
 
 sumar(3, 5)
 
-#2
+#ejercicio 2
 def saludar(nombre):
     print(f"Hola, {nombre}")
 
 saludar("david")
 
-#3
+#ejercicio 3
 def distinct(num):
     print(num % 2)
     return num % 2
@@ -21,7 +21,7 @@ if distinct(numero) == 0:
 else:
     print("es impar")
 
-
+#explicacion como funciona %
 a = int(input("numero a: "))
 b = 2
 resultado1 = a // b
